@@ -580,7 +580,7 @@ buyAuto Red Potion {
 	distance 5
 	price
 	minAmount 0
-	maxAmount 100
+	maxAmount 60
 	disabled 0
 }
 
@@ -590,7 +590,7 @@ buyAuto Fly Wing {
 	distance 5
 	price
 	minAmount 0
-	maxAmount 60
+	maxAmount 30
 	disabled 0
 }
 #buyAuto Concentration Potion {
