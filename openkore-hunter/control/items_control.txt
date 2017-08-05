@@ -1,0 +1,112 @@
+# In this file you can control which items to put in storage,
+# to sell, or to leave in the inventory.
+#
+# Syntax:
+# (item name) (minimum) (auto-store) (auto-sell) [put in cart] [get from cart]
+# item name	: Name of the item.
+# miminum	: The minimum amount of this item that you want to keep in inventory.
+# autostore	: Set to 1 to walk back to a Kapra NPC to put in storage.
+# autosell	: Set to 1 to sell item at a buy/sell NPC.
+# put in cart	: Set to 1 to automatically put this item in cart.
+# get from cart : Set to 1 to automatically get this item from cart.
+#	Jellopy 0 0 1
+#	Knife 0 1 0
+#	Flower 0 0 0 1
+#
+# This example will get Red Potions from cart if you have less than 25
+# of them in your inventory:
+# 	Red Potion 25 0 0 0 1
+#
+# The item name isn't case sensitive. Only items found in this file will
+# be stored or sold.
+#
+# If auto-store and auto-sell are 1, Kore will do storage first (unless
+# storage is full) then sell.
+#
+# Kore will not sell or store equipped items. For example, if you're using
+# a knife and you have a line to auto-sell all knives, kore will sell any
+# extras it picks up, not the knife it's using.
+#
+# Don't forget to set the storageAuto, sellAuto and related configuration
+# options in config.txt, or this file won't have any effect.
+#
+# An auto-sell list and auto-storage list is provided by default, modify it
+# as you see fit.
+
+
+
+#------- ORCSDUN02 --------
+Shining Stone 0 1 0
+Yellow Herb 0 1 0
+Zenorc Card 0 1 0
+Wind of Verdure 0 1 0
+Iron 0 1 0
+Steel 0 1 0
+Rough Elunium 0 1 0
+Rough Oridecon 0 1 0
+Green Herb 0 1 0
+Orc Helm 0 1 0
+Sticky Mucus 0 1 0
+Zenorc's Fang 0 1 0
+Solid Shell 0 1 0
+Shell 0 1 0
+Garlet 0 1 0
+Iron Ore 0 1 0
+Skel-Bone 0 1 0
+Orc's Fang 0 1 0
+Buster 0 1 0
+Tooth of Bat 0 1 0
+Red Herb 0 1 0
+Wing of Red Bat 0 1 0
+Emveretarcon 0 1 0
+
+
+# Gef_dun00
+#------ Poison Spore --------
+Blue Herb 0 1 0
+Green Herb 0 1 0
+Zargon 0 1 0
+Mushroom Spore 0 1 0
+Poison Spore 0 1 0
+Poison Spore Card 0 1 0
+Karvodailnirol 0 1 0
+Hat [1] 0 1 0
+Blue Hair 0 1 0
+Cyfar 0 1 0
+Witherless Rose 0 1 0
+
+#------ Poporing --------
+Green Herb 0 1 0
+Apple 0 1 0
+Grape 0 1 0
+Garlet 0 1 0
+Sticky Mucus 0 1 0
+Main Gauche 0 1 0
+Poporing Card 0 1 0
+
+#------ Dustiness --------
+Red Herb 0 1 0
+Insect Feeler 0 1 0
+Star Dust 0 1 0
+Moth Dust 0 1 0
+Moth Wings 0 1 0
+Masquerade 0 1 0
+Dustiness Card 0 1 0
+
+
+
+
+Empty Bottle 0 1 0
+Wolf Claw 0 1 0
+
+Emveretarcon 0 1 0
+Venom Canine 0 1 0
+Shining Scale 0 1 0
+Snake Card 0 1 0
+Snake Scale 0 1 0
+Strawberry 0 1 0
+
+Blue Hair 0 1 0
+Cyfar 0 1 0
+Witherless Rose 0 1 0
+Moth Dust 0 1 0

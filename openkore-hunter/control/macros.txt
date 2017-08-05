@@ -1,0 +1,56 @@
+macro warp {
+   do pm "caremkemchuoi" requestwarp $.pos
+}
+
+macro gg {
+   do pm "caremkemchuoi" gloria
+}
+
+$bien = 123
+
+#automacro aaa {
+   #timeout 3 
+   #console /^Player (.*) (.*) uses Gloria/
+   #call {
+      #$bien2 = 2222
+      #if ($.lastMatch1 == caremkemchuoi) goto abc
+      #:abc 
+         #do pm "$.lastMatch1" $.lastMatch1 $.lastMatch2 $bien $bien2
+
+   #}
+#}
+
+automacro nhanToaDo{
+   pm /responseWarpRequest (.*) (.*)/
+   call {
+      $x = @eval($.lastMatch1+4)
+      $y = $.lastMatch2
+      do pm "caremkemchuoi" warp $x $y
+   }
+}
+
+automacro MoveTo{
+   timeout 3
+   pm /^moveto (.*) (.*)/
+   call {
+      do move $.lastMatch1 $.lastMatch2
+   }
+}
+
+
+#automacro findMaster {
+   #timeout 3
+   #console /^I lost my master/
+   #call {
+   #$master = @config (followTarget)
+   #do pm "$master" x100 $.map $.pos 
+   #}
+#}
+
+automacro findSlave {
+   pm /x (.*) (.*) (.*)/
+   call {
+      do move $.lastMatch1 $.lastMatch2 $.lastMatch3
+   }
+}
+

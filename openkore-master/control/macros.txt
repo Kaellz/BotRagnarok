@@ -1,0 +1,68 @@
+macro foo {
+   do move 18 34 234 pay_dun00
+   do sit
+   do c hello world
+}
+
+
+automacro quaibua {
+   timeout 3
+   console /(.+)attacks you/
+   call {
+      #do sl 110 $.pos
+   }
+}
+
+automacro quaibua2 {
+   timeout 3
+   pm /^help (.*) (.*) (.*)/
+   call {
+   #do sl 110 $.lastMatch2 $.lastMatch3
+   }
+}
+
+#when master is found
+automacro foundMaster {
+   console /^Found my master!/
+   call {
+   #do pm "$master" clear
+   }
+}
+
+automacro quaibua3 {
+   timeout 3
+   pm /^help2 (.*) (.*) (.*)/
+   call {
+   #do move $.lastMatch2 $.lastMatch3
+   }
+}
+
+automacro findMaster {
+   timeout 3
+   console /^I lost my master/
+   call {
+   $master = @config (followTarget)
+   $do pm "$master" x $.map $.pos
+   }
+}
+
+automacro findMaster2 {
+   timeout 3
+   console /^Calculating route to find master/
+   call {
+   $master = @config (followTarget)
+   #do pm "$master" x $.map $.pos
+   }
+}
+
+#goto master
+automacro gotoMaster {
+   pm /x (.*) (.*) (.*)/
+   call {
+   $pm = $.lastpm
+   if ($pm != $master) stop
+   do move $.lastMatch1 $.lastMatch2 $.lastMatch3
+   }
+}
+
+#when master is found
