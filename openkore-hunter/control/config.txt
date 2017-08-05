@@ -173,7 +173,7 @@ followBot 0
 followRandom 1
 followRandomDistance 1
 
-itemsTakeAuto 2
+itemsTakeAuto 0
 itemsTakeAuto_party 0
 itemsGatherAuto 0
 itemsMaxWeight 89
