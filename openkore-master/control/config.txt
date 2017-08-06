@@ -59,6 +59,11 @@ allowedMaps
 allowedMaps_reaction 1
 
 attackAuto 2
+itemsTakeAuto 2
+lockMap orcsdun02
+follow 0
+followTarget kemchuoi
+
 attackAuto_party 1
 attackAuto_onlyWhenSafe 0
 attackAuto_followTarget 1
@@ -159,9 +164,7 @@ dcOnServerClose 0
 dcOnJobLevel
 dcOnLevel
 
-follow 0
 followCheckLOS 0
-followTarget coheoua
 followEmotion 1
 followEmotion_distance 4
 followFaceDirection 0
@@ -173,7 +176,7 @@ followBot 0
 followRandom 0
 followRandomDistance 4
 
-itemsTakeAuto 0
+itemsTakeAuto 2
 itemsTakeAuto_party 0
 itemsGatherAuto 2
 itemsMaxWeight 89
@@ -184,7 +187,6 @@ itemsTakeAuto_new 0
 itemsTakeGreed 0
 
 #lockMap gon_dun01
-lockMap gef_fild14
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -194,7 +196,7 @@ route_escape_reachedNoPortal 1
 route_escape_randomWalk 1
 route_escape_shout
 route_avoidWalls 1
-route_randomWalk 2
+route_randomWalk 0
 route_randomWalk_inTown 0
 route_randomWalk_maxRouteTime 75
 route_maxWarpFee

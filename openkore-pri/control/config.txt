@@ -59,6 +59,22 @@ allowedMaps
 allowedMaps_reaction 1
 
 attackAuto -1
+follow 1
+followTarget coheoua
+itemsTakeAuto 2
+lockMap
+
+partySkill Increase AGI {
+	lvl 10
+	sp > 45
+	notInTown 0
+	timeout 3
+	target xuchien, kemchuoi
+	target_whenStatusInactive Increase AGI
+	target_timeout 240
+}
+
+
 attackAuto_party 0
 attackAuto_onlyWhenSafe 0
 attackAuto_followTarget 1
@@ -159,9 +175,7 @@ dcOnServerClose 0
 dcOnJobLevel
 dcOnLevel
 
-follow 1
 followCheckLOS 0
-followTarget kemchuoi
 followEmotion 1
 followEmotion_distance 4
 followFaceDirection 0
@@ -173,7 +187,6 @@ followBot 0
 followRandom 0
 followRandomDistance 2
 
-itemsTakeAuto 0
 itemsTakeAuto_party 0
 itemsGatherAuto 0
 itemsMaxWeight 89
@@ -183,7 +196,6 @@ cartMaxWeight 7900
 itemsTakeAuto_new 0
 itemsTakeGreed 0
 
-lockMap
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -576,15 +588,7 @@ target_whenStatusInactive
 target_timeout 0
 }
 
-partySkill Increase AGI {
-	lvl 10
-	sp > 45
-	notInTown 0
-	timeout 3
-	target coheoua, xuchien
-	target_whenStatusInactive Increase AGI
-	target_timeout 240
-}
+
 
 partySkill Cure {
 	lvl 1
