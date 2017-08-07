@@ -41,6 +41,7 @@
 Fly Wing 30 0 0 0 1
 Concentration Potion 3 0 0 0 1
 Red Potion 60 0 0 0 1
+Meat 30 0 0 0 1
 
 Green Herb 0 1 0 1 0
 Hat [1] 0 1 0 1 0

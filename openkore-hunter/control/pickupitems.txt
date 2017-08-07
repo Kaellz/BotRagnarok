@@ -11,22 +11,17 @@
 all 2
 # jellopy 0
 # fluff 0
+all 2
+# jellopy 0
+# fluff 0
 Axe [3] -1
 Flower Ring -1
 Fire Arrow -1
+iron ore -1
+Sticky Mucus -1
+Tooth of Bat -1
+Iron -1
+Red Herb -1
+Garlet -1
 Arrow -1
-
-Empty Bottle 2
-Wolf Claw 2
-
-Emveretarcon 2
-Venom Canine 2
-Shining Scale 2
-Snake Card 2
-Snake Scale 2
-Strawberry 2
-
-Blue Hair 2
-Cyfar 2
-Witherless Rose 2
-Moth Dust 2
+Shell -1

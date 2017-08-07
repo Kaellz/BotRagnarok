@@ -59,14 +59,10 @@ allowedMaps
 allowedMaps_reaction 1
 
 attackAuto 2
-itemsTakeAuto 2
+itemsTakeAuto 0
 lockMap orcsdun02
 follow 0
 followTarget kemchuoi
-lockMap_x
-lockMap_y
-lockMap_randX 50
-lockMap_randY 50
 
 attackAuto_party 1
 attackAuto_onlyWhenSafe 0
@@ -86,7 +82,7 @@ attackCanSnipe 0
 attackCheckLOS 0
 attackLooters 0
 attackChangeTarget 1
-aggressiveAntiKS 1
+aggressiveAntiKS 0
 
 autoMoveOnDeath 0
 autoMoveOnDeath_x
@@ -103,7 +99,7 @@ attackEquip_rightAccessory
 attackEquip_robe
 attackEquip_armor
 attackEquip_shoes
-attackEquip_arrow
+attackEquip_arrow arrow
 
 #You need the breakTime plugin: http://wiki.openkore.com/index.php?title=BreakTime
 autoBreakTime {
@@ -274,7 +270,7 @@ teleportAuto_useItemForRespawn
 teleportAuto_item1
 teleportAuto_item2
 
-dealAuto 0
+dealAuto 2
 dealAuto_names
 partyAuto 2
 partyAutoShare 1
@@ -402,8 +398,8 @@ attackSkillSlot Double Strafe {
 	lvl 10
 	dist 9
 	sp > 10%
-	maxUses 2
-	timeout 10
+	maxUses 1
+	timeout 0
 	monsters Zenorc
 }
 
@@ -465,7 +461,7 @@ buyAuto Arrow {
 	distance 5
 	price
 	minAmount 100
-	maxAmount 7000
+	maxAmount 7500
 	disabled 0
 }
 

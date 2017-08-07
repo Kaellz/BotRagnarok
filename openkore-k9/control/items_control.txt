@@ -99,7 +99,7 @@ Rough Oridecon 0 1 0
 Yellow Herb 0 1 0
 Zenorc Card 0 1 0
 Wind of Verdure 0 1 0
-Iron 0 1 0
+#Iron 0 1 0
 Steel 0 1 0
 Rough Elunium 0 1 0
 Green Herb 0 1 0

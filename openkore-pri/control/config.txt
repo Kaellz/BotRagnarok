@@ -69,7 +69,7 @@ partySkill Increase AGI {
 	sp > 45
 	notInTown 0
 	timeout 3
-	target xuchien, kemchuoi
+	target xuchien, kemchuoi, coheoua
 	target_whenStatusInactive Increase AGI
 	target_timeout 240
 }
