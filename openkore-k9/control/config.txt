@@ -520,7 +520,18 @@ buyAuto Concentration Potion {
 	distance 5
 	price
 	minAmount 0
-	maxAmount 5
+	maxAmount 8
+	disabled 0
+}
+
+buyAuto Fly Wing {
+	#npc payon 159 96 #Payon
+	npc geffen_in 77 167 #geffen
+	standpoint
+	distance 5
+	price
+	minAmount 0
+	maxAmount 30
 	disabled 0
 }
 
