@@ -5,6 +5,14 @@ macro foo {
 }
 
 
+automacro gotome {
+   timeout 5
+   console /(.+)attacks you/
+   call {
+      do pm "coheoua" movetome $.map $.pos 
+   }
+}
+
 automacro quaibua {
    timeout 3
    console /(.+)attacks you/

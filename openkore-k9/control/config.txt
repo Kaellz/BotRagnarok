@@ -58,10 +58,10 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 2
-follow 0
-itemsTakeAuto 2
-lockMap orcsdun02
+attackAuto 0
+follow 1
+itemsTakeAuto 0
+lockMap
 followTarget kemchuoi
 
 attackAuto_party 1
@@ -198,7 +198,7 @@ route_escape_reachedNoPortal 1
 route_escape_randomWalk 1
 route_escape_shout
 route_avoidWalls 1
-route_randomWalk 2
+route_randomWalk 0
 route_randomWalk_inTown 0
 route_randomWalk_maxRouteTime 75
 route_maxWarpFee
@@ -435,16 +435,16 @@ pet_return 20
 # You can copy & paste any block multiple times. So if you want to
 # configure two attack skills, just duplicate the attackSkillSlot block.
 
-#attackSkillSlot Bash {
-lvl 10
-dist 1.5
-sp > 40%
-aggressives >= 1  # change value here
-inLockOnly 1
-timeout 5
-monsters
-maxAttempts
-maxUses 1
+attackSkillSlot Bash {
+	lvl 10
+	dist 1.5
+	sp > 40%
+	aggressives >= 1  # change value here
+	inLockOnly 1
+	timeout 5
+	monsters
+	maxAttempts
+	maxUses 1
 }
 useSelf_skill Twohand Quicken {
 	lvl 10

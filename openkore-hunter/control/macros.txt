@@ -8,17 +8,13 @@ macro gg {
 
 $bien = 123
 
-#automacro aaa {
-   #timeout 3 
-   #console /^Player (.*) (.*) uses Gloria/
-   #call {
-      #$bien2 = 2222
-      #if ($.lastMatch1 == caremkemchuoi) goto abc
-      #:abc 
-         #do pm "$.lastMatch1" $.lastMatch1 $.lastMatch2 $bien $bien2
-
-   #}
-#}
+automacro okFineGoToYou {
+   timeout 2 
+   pm /^movetome (.*) (.*) (.*)/
+   call {
+      do move $.lastMatch1 $.lastMatch2 $.lastMatch3
+   }
+}
 
 automacro nhanToaDo{
    pm /responseWarpRequest (.*) (.*)/
@@ -26,14 +22,6 @@ automacro nhanToaDo{
       $x = @eval($.lastMatch1+4)
       $y = $.lastMatch2
       do pm "caremkemchuoi" warp $x $y
-   }
-}
-
-automacro MoveTo{
-   timeout 3
-   pm /^moveto (.*) (.*)/
-   call {
-      do move $.lastMatch1 $.lastMatch2
    }
 }
 

@@ -1,11 +1,3 @@
-automacro help {
-   timeout 7
-   console /^(.+)attacks you/
-   call {
-      do pm "kemchuoi" help2 $.map $.pos
-   }
-}
-
 automacro moveToPri {
    timeout 3
    pm /move (.*) (.*) (.*)/

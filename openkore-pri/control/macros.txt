@@ -39,14 +39,6 @@ automacro GloriaPri {
 }
 
 
-automacro help {
-   timeout 4
-   console /^(.+)attacks you/
-   call {
-      do pm "kemchuoi" help $.map $.pos
-   }
-}
-
 
 #when master is found
 automacro foundMaster {

@@ -58,10 +58,10 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 2
+attackAuto 0
 itemsTakeAuto 0
-lockMap orcsdun02
-follow 0
+lockMap gef_fild14
+follow 1
 followTarget kemchuoi
 
 attackAuto_party 1
@@ -172,7 +172,7 @@ followDistanceMax 3
 followDistanceMin 1
 followLostStep 1
 followSitAuto 0
-followBot 0
+followBot 1
 followRandom 1
 followRandomDistance 1
 
@@ -191,7 +191,7 @@ route_escape_reachedNoPortal 1
 route_escape_randomWalk 1
 route_escape_shout
 route_avoidWalls 1
-route_randomWalk 2
+route_randomWalk 0
 route_randomWalk_inTown 0
 route_randomWalk_maxRouteTime 75
 route_maxWarpFee
@@ -394,13 +394,13 @@ pet_return 20
 # You can copy & paste any block multiple times. So if you want to
 # configure two attack skills, just duplicate the attackSkillSlot block.
 
-attackSkillSlot Double Strafe {
-	lvl 10
-	dist 9
-	sp > 10%
-	maxUses 1
-	timeout 0
-	monsters Zenorc
+#attackSkillSlot Double Strafe {
+lvl 10
+dist 9
+sp > 10%
+maxUses 1
+timeout 0
+monsters High
 }
 
 useSelf_skill Improve Concentration {
