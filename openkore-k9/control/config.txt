@@ -2,7 +2,7 @@
 # The Manual is located at http://wiki.openkore.com/index.php?title=Manual
 
 ######## Login options and server-specific options ########
-
+ 
 master Ragnarok - Re:Start
 server 0
 username ankemly121
@@ -58,10 +58,10 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 0
-follow 1
-itemsTakeAuto 0
-lockMap
+attackAuto 2
+follow 0
+itemsTakeAuto 1
+lockMap orcsdun02
 followTarget kemchuoi
 
 attackAuto_party 1
@@ -198,7 +198,7 @@ route_escape_reachedNoPortal 1
 route_escape_randomWalk 1
 route_escape_shout
 route_avoidWalls 1
-route_randomWalk 0
+route_randomWalk 2
 route_randomWalk_inTown 0
 route_randomWalk_maxRouteTime 75
 route_maxWarpFee

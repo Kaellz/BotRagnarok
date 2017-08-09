@@ -12,7 +12,7 @@ automacro okFineGoToYou {
    timeout 2 
    pm /^movetome (.*) (.*) (.*)/
    call {
-      do move $.lastMatch1 $.lastMatch2 $.lastMatch3
+      #do move $.lastMatch1 $.lastMatch2 $.lastMatch3
    }
 }
 

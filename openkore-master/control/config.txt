@@ -7,7 +7,7 @@ master Ragnarok - Re:Start
 server 0
 username ankemly123
 password Hung1991
-loginPinCode
+loginPinCode 
 char 0
 
 # Poseidon Settings (http://wiki.openkore.com/index.php/PoseidonServer)
@@ -60,7 +60,7 @@ allowedMaps_reaction 1
 
 attackAuto 2
 itemsTakeAuto 2
-lockMap gef_fild14
+lockMap orcsdun02
 follow 0
 followTarget kemchuoi
 
