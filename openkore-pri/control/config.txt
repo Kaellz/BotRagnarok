@@ -223,8 +223,8 @@ saveMap geffen
 saveMap_warpToBuyOrSell 1
 saveMap_warpChatCommand
 memo1 geffen
-memo2 glast_01
-memo3
+memo2 gef_fild10
+memo3 glast_01
 memo4
 
 shopAuto_open 0

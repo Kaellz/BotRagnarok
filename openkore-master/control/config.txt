@@ -60,7 +60,7 @@ allowedMaps_reaction 1
 
 attackAuto 2
 itemsTakeAuto 2
-lockMap orcsdun02
+lockMap gef_fild14
 follow 0
 followTarget kemchuoi
 

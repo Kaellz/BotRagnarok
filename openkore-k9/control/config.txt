@@ -262,7 +262,7 @@ teleportAuto_useChatCommand
 teleportAuto_allPlayers 0
 teleportAuto_notPlayers
 teleportAuto_atkCount 0
-teleportAuto_atkMiss 10
+teleportAuto_atkMiss 40
 teleportAuto_unstuck 0
 teleportAuto_lostTarget 0
 teleportAuto_dropTarget 0
@@ -442,10 +442,25 @@ attackSkillSlot Bash {
 	aggressives >= 1  # change value here
 	inLockOnly 1
 	timeout 5
-	monsters
+	monsters Whisper
 	maxAttempts
 	maxUses 1
 }
+
+
+attackSkillSlot Magnum Break {
+	lvl 10
+	dist 1.5
+	sp > 40%
+	aggressives >= 1  # change value here
+	inLockOnly 1
+	timeout 5
+	monsters 
+	maxAttempts
+	maxUses 5
+}
+
+
 useSelf_skill Twohand Quicken {
 	lvl 10
 	sp > 10%
