@@ -58,8 +58,8 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 2
-follow 0
+attackAuto 0
+follow 1
 itemsTakeAuto 1
 lockMap orcsdun02
 followTarget kemchuoi

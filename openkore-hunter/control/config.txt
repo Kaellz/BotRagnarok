@@ -58,19 +58,19 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 2
+attackAuto 0
 itemsTakeAuto 0
 lockMap orcsdun02
-follow 0
+follow 2
 followTarget kemchuoi
 
 attackSkillSlot Double Strafe {
 	lvl 10
 	dist 9
 	sp > 10%
-	maxUses 1
+	maxUses 2
 	timeout 0
-	monsters Orc Skeleton
+	monsters Bathory
 }
 
 attackAuto_party 2
@@ -200,7 +200,7 @@ route_escape_reachedNoPortal 1
 route_escape_randomWalk 1
 route_escape_shout
 route_avoidWalls 1
-route_randomWalk 2
+route_randomWalk 1
 route_randomWalk_inTown 0
 route_randomWalk_maxRouteTime 75
 route_maxWarpFee

@@ -60,7 +60,7 @@ allowedMaps_reaction 1
 
 attackAuto -1
 follow 1
-followTarget coheoua
+followTarget kemchuoi
 itemsTakeAuto 2
 lockMap
 

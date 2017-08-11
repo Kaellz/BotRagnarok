@@ -558,12 +558,12 @@ autoSwitch {
 	useWeapon
 }
 
-useSelf_item Meat, Red Potion {
+useSelf_item White Potion, Meat, Red Potion {
 	hp < 65%
 }
 
-useSelf_item Novice Fly Wing {
-	hp < 10%
+$useSelf_item Fly Wing {
+	hp < 25%
 }
 
 useSelf_item Concentration Potion {
@@ -608,7 +608,7 @@ buyAuto Concentration Potion {
 }
 
 
-sellAuto 0
+sellAuto 1
 #sellAuto_npc payon 159 96 #Payon
 sellAuto_npc geffen_in 77 167 #geffen
 #sellAuto_npc gonryun 147 84 #geffen

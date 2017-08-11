@@ -105,6 +105,7 @@ Rough Elunium 0 1 0
 Green Herb 0 1 0
 Orc Helm 0 1 0
 
+Buster [2] 0 0 1
 Sticky Mucus 0 0 1
 Zenorc's Fang 0 0 1
 Solid Shell 0 0 1
