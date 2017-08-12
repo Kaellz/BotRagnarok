@@ -61,7 +61,7 @@ allowedMaps_reaction 1
 attackAuto -1
 follow 1
 followTarget kemchuoi
-itemsTakeAuto 2
+itemsTakeAuto 0
 lockMap
 
 partySkill Increase AGI {
@@ -69,7 +69,7 @@ partySkill Increase AGI {
 	sp > 45
 	notInTown 0
 	timeout 3
-	target xuchien, coheoua, kemchuoi
+	target xuchien, coheoua
 	target_whenStatusInactive Increase AGI
 	target_timeout 240
 }

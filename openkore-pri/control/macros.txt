@@ -7,16 +7,13 @@ macro foo {
 automacro warpGLHelm {
    timeout 4
    pm /^warp (.*) (.*) (.*)$/
-   inventory "Blue Gemstone" > 0
    call {
       do ai manual
-      $master = @config(followTarget)
+      pause 1
       do sl 27 $.lastMatch1 $.lastMatch2
       pause 3
       do warp $.lastMatch3
       pause 1
-      do pm "$master" moveto $.lastMatch1 $.lastMatch2
-      pause 4
       do ai on
    }
 }

@@ -60,7 +60,7 @@ allowedMaps_reaction 1
 
 attackAuto 0
 follow 1
-itemsTakeAuto 1
+itemsTakeAuto 0
 lockMap orcsdun02
 followTarget kemchuoi
 
@@ -448,18 +448,26 @@ attackSkillSlot Bash {
 }
 
 
-attackSkillSlot Magnum Break {
-	lvl 10
-	dist 1.5
-	sp > 40%
-	aggressives >= 1  # change value here
-	inLockOnly 1
-	timeout 5
-	monsters 
-	maxAttempts
-	maxUses 5
+#attackSkillSlot Magnum Break {
+lvl 10
+dist 1.5
+sp > 30%
+inLockOnly 1
+timeout 1
+monsters Whisper
+maxAttempts
+maxUses 5
 }
 
+useSelf_skill Magnum Break {
+	lvl 10
+	dist 1.5
+	sp > 20%
+	onAction Attack
+	monsters Whisper
+	notInTown 1
+	timeout 1
+}
 
 useSelf_skill Twohand Quicken {
 	lvl 10

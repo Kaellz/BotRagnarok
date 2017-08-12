@@ -62,6 +62,7 @@ Poring 0 0 0
 Roda Frog 0 0 0
 #Steel Chonchon 0 0 0
 Picky 0 0 0
+Whisper 0 0 0
 Chonchon 0 0 0
 
 ##### Eggs #####

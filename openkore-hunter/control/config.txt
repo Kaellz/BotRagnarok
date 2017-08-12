@@ -58,7 +58,7 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 0
+attackAuto 1
 itemsTakeAuto 0
 lockMap orcsdun02
 follow 2
@@ -68,14 +68,14 @@ attackSkillSlot Double Strafe {
 	lvl 10
 	dist 9
 	sp > 10%
-	maxUses 2
+	maxUses 1
 	timeout 0
-	monsters Bathory
+	monsters High Orc
 }
 
 attackAuto_party 2
 attackAuto_onlyWhenSafe 0
-attackAuto_followTarget 0
+attackAuto_followTarget 1
 attackAuto_inLockOnly 1
 attackAuto_notInTown 1
 attackDistance 15
@@ -256,7 +256,7 @@ teleportAuto_search 0
 teleportAuto_minAggressives 3
 teleportAuto_minAggressivesInLock 0
 teleportAuto_onlyWhenSafe 0
-teleportAuto_maxDmg 1500
+teleportAuto_maxDmg 2000
 teleportAuto_maxDmgInLock 0
 teleportAuto_deadly 1
 teleportAuto_useSkill 1
@@ -264,7 +264,7 @@ teleportAuto_useChatCommand
 teleportAuto_allPlayers 0
 teleportAuto_notPlayers
 teleportAuto_atkCount 0
-teleportAuto_atkMiss 10
+teleportAuto_atkMiss 40
 teleportAuto_unstuck 1
 teleportAuto_lostTarget 0
 teleportAuto_dropTarget 0
