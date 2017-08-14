@@ -15,6 +15,7 @@ all 2
 # jellopy 0
 # fluff 0
 Axe [3] -1
+Hat [1] -1
 Flower Ring -1
 Fire Arrow -1
 iron ore -1
@@ -25,3 +26,4 @@ Red Herb -1
 Garlet -1
 Arrow -1
 Shell -1
+Green Herb -1

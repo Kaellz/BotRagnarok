@@ -688,13 +688,13 @@ buyAuto {
 	disabled 0
 }
 
-sellAuto 1
+sellAuto 0
 sellAuto_npc geffen_in 77 167 #geffen
 sellAuto_standpoint
 sellAuto_distance 5
 sellAuto_npc_steps s e
 
-storageAuto 1
+storageAuto 0
 storageAuto_npc geffen 120 62 #Geffen
 storageAuto_distance 5
 storageAuto_npc_type 1

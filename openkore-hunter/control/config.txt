@@ -58,11 +58,21 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 1
-itemsTakeAuto 0
-lockMap orcsdun02
-follow 2
+attackAuto 2
+itemsTakeAuto 2
+lockMap gef_dun00
+follow 0
 followTarget kemchuoi
+
+attackSkillSlot Arrow Shower {
+	lvl 10
+	dist 9
+	sp > 30%
+	Aggressive >= 8
+	maxUses 1
+	timeout 0
+	monsters Poison Spore
+}
 
 attackSkillSlot Double Strafe {
 	lvl 10
@@ -71,6 +81,77 @@ attackSkillSlot Double Strafe {
 	maxUses 1
 	timeout 0
 	monsters High Orc
+}
+
+######## Autostorage/autosell ########
+
+buyAuto Arrow {
+	#npc payon 159 96 #Payon
+	#npc morocc 147 102 #Morocc
+	npc geffen_in 77 167
+	standpoint
+	distance 5
+	price
+	minAmount 100
+	maxAmount 4000
+	disabled 0
+}
+
+buyAuto {
+	npc
+	#npc morocc 147 102 #Morocc
+	standpoint
+	distance
+	price
+	minAmount
+	maxAmount
+	disabled
+}
+
+sellAuto 1
+#sellAuto_npc payon 159 96 #Payon
+#sellAuto_npc morocc 147 102 #Morocc
+sellAuto_npc geffen_in 77 167 #geffen
+sellAuto_standpoint
+sellAuto_distance 5
+sellAuto_npc_steps s e
+
+storageAuto 1
+#storageAuto_npc 28 229 #Payon
+#storageAuto_npc morocc 156 97 #Morocc
+storageAuto_npc geffen 120 62 #Geffen
+#storageAuto_npc gef_fild10 73 340 #Geffen
+#storageAuto_npc alberta 28 229 #Payon
+#storageAuto_npc prontera 151 29 #Prontera
+storageAuto_distance 5
+storageAuto_npc_type 1
+storageAuto_npc_steps c r1 n
+storageAuto_password
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x0E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+storageAuto_keepOpen 0
+storageAuto_useChatCommand
+storageAuto_notAfterDeath
+relogAfterStorage 0
+minStorageZeny 50
+
+npcTimeResponse
+
+getAuto Concentration Potion {
+	minAmount 0
+	maxAmount 4
+	passive
+}
+
+getAuto Fly Wing {
+	minAmount 2
+	maxAmount 20
+	passive
+}
+
+getAuto {
+	minAmount
+	maxAmount
+	passive
 }
 
 attackAuto_party 2
@@ -436,7 +517,7 @@ autoSwitch {
 }
 
 
-useSelf_item Novice Potion, Red Potion {
+useSelf_item Red Herb, Novice Potion, Red Potion {
 	hp < 85%
 }
 
@@ -453,82 +534,7 @@ useSelf_item Concentration Potion {
 }
 
 
-######## Autostorage/autosell ########
 
-buyAuto Arrow {
-	#npc payon 159 96 #Payon
-	#npc morocc 147 102 #Morocc
-	npc geffen_in 77 167
-	standpoint
-	distance 5
-	price
-	minAmount 100
-	maxAmount 7500
-	disabled 0
-}
-
-buyAuto {
-	npc
-	#npc morocc 147 102 #Morocc
-	standpoint
-	distance
-	price
-	minAmount
-	maxAmount
-	disabled
-}
-
-sellAuto 1
-#sellAuto_npc payon 159 96 #Payon
-#sellAuto_npc morocc 147 102 #Morocc
-sellAuto_npc geffen_in 77 167 #geffen
-sellAuto_standpoint
-sellAuto_distance 5
-sellAuto_npc_steps s e
-
-storageAuto 1
-#storageAuto_npc 28 229 #Payon
-#storageAuto_npc morocc 156 97 #Morocc
-storageAuto_npc geffen 120 62 #Geffen
-#storageAuto_npc gef_fild10 73 340 #Geffen
-#storageAuto_npc alberta 28 229 #Payon
-#storageAuto_npc prontera 151 29 #Prontera
-storageAuto_distance 5
-storageAuto_npc_type 1
-storageAuto_npc_steps c r1 n
-storageAuto_password
-storageEncryptKey 0x050B6F79, 0x0202C179, 0x0E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
-storageAuto_keepOpen 0
-storageAuto_useChatCommand
-storageAuto_notAfterDeath
-relogAfterStorage 0
-minStorageZeny 50
-
-npcTimeResponse
-
-getAuto Arrow {
-	minAmount 50
-	maxAmount 3500
-	passive
-}
-
-getAuto Concentration Potion {
-	minAmount 0
-	maxAmount 4
-	passive
-}
-
-getAuto Fly Wing {
-	minAmount 2
-	maxAmount 20
-	passive
-}
-
-getAuto {
-	minAmount
-	maxAmount
-	passive
-}
 
 
 

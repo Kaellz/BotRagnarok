@@ -66,8 +66,8 @@ Emveretarcon 0 1 0
 Blue Herb 0 1 0
 Green Herb 0 1 0
 Zargon 0 1 0
-Mushroom Spore 0 1 0
-Poison Spore 0 1 0
+Mushroom Spore 0 0 1
+Poison Spore 0 0 1
 Poison Spore Card 0 1 0
 Karvodailnirol 0 1 0
 Hat [1] 0 1 0
