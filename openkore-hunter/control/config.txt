@@ -58,10 +58,10 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 2
-itemsTakeAuto 2
+attackAuto 0
+itemsTakeAuto 0
 lockMap gef_dun00
-follow 0
+follow 1
 followTarget kemchuoi
 
 attackSkillSlot Arrow Shower {
@@ -93,7 +93,7 @@ buyAuto Arrow {
 	distance 5
 	price
 	minAmount 100
-	maxAmount 4000
+	maxAmount 7500
 	disabled 0
 }
 

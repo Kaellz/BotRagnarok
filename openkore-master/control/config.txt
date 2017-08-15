@@ -60,9 +60,13 @@ allowedMaps_reaction 1
 
 attackAuto 2
 itemsTakeAuto 2
-lockMap orcsdun02
+lockMap gef_fild14
 follow 0
 followTarget kemchuoi
+
+#useSelf_item Fly Wing {
+	monsters Orc Archer
+}
 
 attackAuto_party 1
 attackAuto_onlyWhenSafe 0
@@ -562,7 +566,7 @@ useSelf_item White Potion, Meat, Red Potion {
 	hp < 65%
 }
 
-$useSelf_item Fly Wing {
+#useSelf_item Fly Wing {
 	hp < 25%
 }
 

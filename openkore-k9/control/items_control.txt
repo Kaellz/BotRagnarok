@@ -94,6 +94,11 @@ Bark Shorts 0 1 0
 
 
 #orcsdun02
+Ogre Tooth 0 0 1
+Cyfar 0 0 1
+Orcish Voucher 0 0 1 
+Fang 0 0 1
+
 Shining Stone 0 1 0
 Rough Oridecon 0 1 0
 Yellow Herb 0 1 0
