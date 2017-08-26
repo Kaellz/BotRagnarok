@@ -1,0 +1,35 @@
+
+# All items not mentioned in this file will be automatically stored in storage.
+
+all 0 1 0
+
+Mushroom Spore 0 1 0
+Blue Herb 0 1 0
+Poison Spore 0 1 0
+Zargon 0 1 0
+Karvodailnirol 0 1 0
+Grape 0 1 0
+Sticky Mucus 0 1 0
+Masquerade 0 1 0
+Moth Dust 0 1 0
+Moth Wings 0 1 0
+Star Dust 0 1 0
+Insect Feeler 0 1 0
+
+Orcish Voucher 0 1 0
+Rough Oridecon 0 1 0
+Iron 0 1 0
+Wrapping Lace 0 1 0
+Battle Axe [4] 0 1 0
+Cyfar 0 1 0
+Large Jellopy 0 1 0
+Milk 0 1 0
+Yoyo Tail 0 1 0
+Silk Robe [1] 0 1 0
+Honey 0 1 0
+Royal Jelly 0 1 0
+Flower 0 1 0
+Level 3 Lightening Bolt 0 1 0
+Empty Bottle 0 1 0
+Phracon 0 1 0
+Wind of Verdure 0 1 0
